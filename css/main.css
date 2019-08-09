@@ -12,7 +12,7 @@ body, html {font-size: 18px;
            background-color: white;
            position: relative;
            width: 445px;
-           height: 590px;
+           height: 400px;
            top: 250px;
            right: 0px;
            transform: rotate(-35deg);
@@ -24,7 +24,7 @@ body, html {font-size: 18px;
            width: 445px;
            height: 790px;
            transform: rotate(-35deg);
-           top: -750px;
+           top: -560px;
            right: -320px;
            z-index: 0;
            overflow-x: hidden;}
@@ -34,7 +34,7 @@ body, html {font-size: 18px;
        z-index: 1;
        width: 121px;
        margin-left: 16px;
-       top: -1350px;}
+       top: -1150px;}
 
 .header-hright {float: right;
                 position: relative;
@@ -46,13 +46,20 @@ body, html {font-size: 18px;
                 border-radius: 3px;
                 font-weight: 400;
                 margin-left: 16px;
-                top: -1383px;}
+                top: -1183px;}
 
+.mockups {width: 296px;}
 
+.section-a {width: 100%;
+            position: relative;
+            top: -1130px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;}
 
-
-
-
+.section-a__p {width: 83.33%;}
 
 
 
