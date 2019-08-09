@@ -3,6 +3,11 @@
 body, html {font-size: 18px;
             background-color: #F7F9FD;
             overflow-x: hidden;}
+
+.heading {font-family: "Poppins";}
+
+p {font-family: "Open Sans";}
+
 /* HSL(192°, 100%, 11%) heading hsl(208, 11%, 55%) par*/
 @media screen and (max-width: 480px)
 
@@ -11,10 +16,10 @@ body, html {font-size: 18px;
 .bg-white {clip-path: inset(0% 0% 0% 0% round 40px);
            background-color: white;
            position: relative;
-           width: 445px;
-           height: 400px;
-           top: 250px;
-           right: 0px;
+           width: 625px;
+           height: 440px;
+           top: 200px;
+           right: 30px;
            transform: rotate(-35deg);
            z-index: 0;}
 
@@ -24,7 +29,7 @@ body, html {font-size: 18px;
            width: 445px;
            height: 790px;
            transform: rotate(-35deg);
-           top: -560px;
+           top: -600px;
            right: -320px;
            z-index: 0;
            overflow-x: hidden;}
@@ -34,7 +39,7 @@ body, html {font-size: 18px;
        z-index: 1;
        width: 121px;
        margin-left: 16px;
-       top: -1150px;}
+       top: -1190px;}
 
 .header-hright {float: right;
                 position: relative;
@@ -46,24 +51,30 @@ body, html {font-size: 18px;
                 border-radius: 3px;
                 font-weight: 400;
                 margin-left: 16px;
-                top: -1183px;}
+                top: -1211px;
+                font-size: 12px;}
 
 .mockups {width: 296px;}
 
 .section-a {width: 100%;
             position: relative;
-            top: -1130px;
+            top: -1140px;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
             justify-content: center;
             text-align: center;}
 
-.section-a__p {width: 83.33%;}
+.section-a__p {width: 83.33%; color: hsl(208, 11%, 55%);}
 
+.section-a__h {width: 72.22%;}
 
-
-
+.btn {background-color: hsl(322, 100%, 66%);
+      padding: 16.5px 41px;
+      box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
+      border-radius: 3px;
+      color: white;
+      border: none;}
 
 
 
