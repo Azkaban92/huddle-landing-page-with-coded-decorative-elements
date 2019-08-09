@@ -1,0 +1,100 @@
+
+
+body, html {font-size: 18px;
+            background-color: #F7F9FD;
+            overflow-x: hidden;}
+/* HSL(192°, 100%, 11%) heading hsl(208, 11%, 55%) par*/
+@media screen and (max-width: 420px)
+
+{
+
+.bg-white {clip-path: inset(0% 0% 0% 0% round 40px);
+           background-color: white;
+           position: relative;
+           width: 445px;
+           height: 590px;
+           top: 150px;
+           right: 0px;
+           transform: rotate(-35deg);
+           z-index: 0;}
+
+.bg-purple {clip-path: inset(0% 0% 0% 0% round 60px);
+           background-image: linear-gradient(to bottom, hsl(322, 100%, 66%), hsl(265, 100%, 66%));
+           position: relative;
+           width: 445px;
+           height: 790px;
+           transform: rotate(-35deg);
+           top: -750px;
+           right: -300px;
+           z-index: 0;
+           overflow-x: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
