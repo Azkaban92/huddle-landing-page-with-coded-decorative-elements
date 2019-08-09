@@ -16,10 +16,10 @@ p {font-family: "Open Sans";}
 .bg-white {clip-path: inset(0% 0% 0% 0% round 40px);
            background-color: white;
            position: relative;
-           width: 625px;
+           width: 825px;
            height: 440px;
            top: 200px;
-           right: 30px;
+           right: 60px;
            transform: rotate(-35deg);
            z-index: 0;}
 
@@ -86,7 +86,7 @@ p {font-family: "Open Sans";}
 
 .section-b {width: 100%;
             position: relative;
-            top: -860px;
+            top: -930px;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
@@ -114,36 +114,60 @@ p {font-family: "Open Sans";}
                  background-color: white;
                  width: 84.8%;
                  border-radius: 5px;
-                padding-top: 26px;}
+                 padding-top: 26px;
+                 box-shadow: 0 5px 5px hsl(251, 11%, 55%);}
 
 .section-b__h-final  {background-color: hsl(322, 100%, 66%);
                       padding: 16.5px 41px;
+                      margin-bottom: 35px;
                       box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
                       border-radius: 3px;
                       color: white;
-                      border: none;}
+                      border: none;
+                      font-weight: 400;
+                      font-size: 8px;}
 
+.section-b__p-pfinal {font-size: 9px;
+                      margin: 0;
+                      margin-bottom: 13px;
+                      color: hsl(208, 11%, 55%);}
 
+footer {color: white;
+        background-color: hsl(192, 100%, 9%);}
 
+.wlogo {fill: white;}
 
+.logo-bottom-wrapper {text-align: center;}
 
+.logo-bottom {transform: scale(0.5); margin-top: 75px; margin-bottom: 87px;}
 
+.links {margin-left: 32px; margin-bottom: 75px;}
 
+.links__p {margin-top: 0; margin-bottom: 30px;}
 
+.sub-icons {display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            width: 100%;
+            text-align: center;}
 
+.sub-icons__p,
+.sub-icons__sub-b,
+.email {width: 85.33%;}
 
+.email {height: 48px; border: none;}
 
+.sub-icons__sub-b  {background-color: hsl(322, 100%, 66%);
+                    padding: 16.5px 41px;
+                    margin-top: 16px;
+                    margin-bottom: 97px;
+                    box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
+                    border-radius: 3px;
+                    width: 85.33%;
+                    border: none;
+                    color: white;}
 
-
-
-
-
-
-
-
-
-
-
+.sub-icons__copy {font-size: small;}
 
 
 
