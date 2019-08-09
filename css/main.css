@@ -4,7 +4,7 @@ body, html {font-size: 18px;
             background-color: #F7F9FD;
             overflow-x: hidden;}
 /* HSL(192°, 100%, 11%) heading hsl(208, 11%, 55%) par*/
-@media screen and (max-width: 420px)
+@media screen and (max-width: 480px)
 
 {
 
@@ -13,7 +13,7 @@ body, html {font-size: 18px;
            position: relative;
            width: 445px;
            height: 590px;
-           top: 150px;
+           top: 250px;
            right: 0px;
            transform: rotate(-35deg);
            z-index: 0;}
@@ -25,13 +25,28 @@ body, html {font-size: 18px;
            height: 790px;
            transform: rotate(-35deg);
            top: -750px;
-           right: -300px;
+           right: -320px;
            z-index: 0;
            overflow-x: hidden;}
 
+.logo {float: left; position:
+       relative;
+       z-index: 1;
+       width: 121px;
+       margin-left: 16px;
+       top: -1350px;}
 
-
-
+.header-hright {float: right;
+                position: relative;
+                z-index: 1;
+                color: #002D38;
+                margin-right: 16px;
+                padding: 9px 25.5px;
+                background-color: white;
+                border-radius: 3px;
+                font-weight: 400;
+                margin-left: 16px;
+                top: -1383px;}
 
 
 
