@@ -54,20 +54,26 @@ p {font-family: "Open Sans";}
                 top: -1211px;
                 font-size: 12px;}
 
-.mockups {width: 296px;}
+.mockups {width: 296px; margin-bottom: 30px;}
 
 .section-a {width: 100%;
             position: relative;
-            top: -1140px;
+            top: -1160px;
             display: flex;
             flex-flow: column nowrap;
             align-items: center;
             justify-content: center;
-            text-align: center;}
+            text-align: center;
+            margin-top: 0;}
 
-.section-a__p {width: 83.33%; color: hsl(208, 11%, 55%);}
+.section-a__p {width: 83.33%;
+               color: hsl(208, 11%, 55%);
+               margin-top: 0;
+               margin-bottom: 25px;}
 
-.section-a__h {width: 72.22%;}
+.section-a__h {width: 72.22%;
+               margin-top: 0;
+               margin-bottom: 19px;}
 
 .btn {background-color: hsl(322, 100%, 66%);
       padding: 16.5px 41px;
@@ -76,18 +82,46 @@ p {font-family: "Open Sans";}
       color: white;
       border: none;}
 
+.users {width: 306px; margin-bottom: 84px;}
 
+.section-b {width: 100%;
+            position: relative;
+            top: -860px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 0;}
 
+.section-b__h {margin-bottom: 31px; margin-top: 0;}
 
+.section-b__p  {width: 80%;
+               color: hsl(208, 11%, 55%);
+               margin-top: 0;
+               margin-bottom: 25px;}
 
+.p-users {margin-bottom: 97px;}
 
+.section-b__h-prefinal {margin-top: 0;}
 
+.section-b__h-final {margin-top: 0;}
 
+.section-b__try {display: flex;
+                 flex-flow: column nowrap;
+                 justify-content: center;
+                 align-items: center;
+                 background-color: white;
+                 width: 84.8%;
+                 border-radius: 5px;
+                padding-top: 26px;}
 
-
-
-
-
+.section-b__h-final  {background-color: hsl(322, 100%, 66%);
+                      padding: 16.5px 41px;
+                      box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
+                      border-radius: 3px;
+                      color: white;
+                      border: none;}
 
 
 
