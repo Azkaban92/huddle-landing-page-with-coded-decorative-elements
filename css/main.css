@@ -186,10 +186,87 @@ footer {color: white;
 
 .sub-icons__copy {font-size: small; padding-bottom: 25px;}
 
+}
 
 
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+
+.bg-white {clip-path: inset(0% 0% 0% 0% round 80px);
+           background-color: white;
+           position: relative;
+           width: 1025px;
+           height: 640px;
+           top: 600px;
+           right: -60px;
+           transform: rotate(-35deg);
+           z-index: 0;}
+
+.bg-purple {clip-path: inset(0% 0% 0% 0% round 60px);
+            background-image: linear-gradient(to bottom, hsl(322, 100%, 66%), hsl(265, 100%, 66%));
+            position: relative;
+            width: 1445px;
+            height: 1790px;
+            transform: rotate(-35deg);
+            top: -1200px;
+            right: -820px;
+            z-index: 0;}
+
+          }
 
 
+@media screen and (min-width: 1200px) and (max-width: 1300px)
+
+{
+.logo {float: left; position:
+       relative;
+       z-index: 1;
+       margin-left: 16px;
+       top: -2370px;
+       margin-left: 80px;}
+
+.mockups {width: 800px; margin-bottom: 85px;}
+
+.header-hright {float: right;
+                position: relative;
+                z-index: 1;
+                color: #002D38;
+                margin-right: 80px;
+                padding: 19px 68px;
+                background-color: white;
+                border-radius: 3px;
+                font-weight: 400;
+                top: -2395px;
+                font-size: 12px;}
+
+.section-a {width: 100%;
+            position: relative;
+            top: -2260px;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 0;}
+
+.section-a__p {width: 51.94%;
+               color: hsl(208, 11%, 55%);
+               margin-top: 0;
+               margin-bottom: 25px;}
+
+.section-a__h {width: 72.22%;
+               margin-top: 0;
+               margin-bottom: 19px;
+               font-weight: 700;}
+
+.btn {background-color: hsl(322, 100%, 66%);
+      padding: 22px 72px;
+      box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
+      border-radius: 3px;
+      font-weight: 400;
+      color: white;
+      border: none;}
+
+}
 
 
 
