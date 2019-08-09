@@ -338,15 +338,18 @@ footer {color: white;
 .section-a__p {width: 51.94%;
                color: hsl(208, 11%, 55%);
                margin-top: 0;
+               font-size: 23px;
                margin-bottom: 25px;}
 
 .section-a__h {width: 72.22%;
                margin-top: 0;
+               font-size: 36px;
                margin-bottom: 19px;
                font-weight: 700;}
 
 .btn {background-color: hsl(322, 100%, 66%);
       padding: 22px 72px;
+      font-size: 14px;
       box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
       border-radius: 3px;
       font-weight: 400;
@@ -392,9 +395,11 @@ footer {color: white;
                       color: white;
                       border: none;
                       font-weight: 400;
-                      font-size: 7px;}
+                      font-size: 16px;}
 
-.section-b__p-pfinal {font-size: 9px;
+.section-b__h-prefinal {margin-top: 0; font-size: 38px; font-weight: 600;}
+
+.section-b__p-pfinal {font-size: 18px;
                       margin: 0;
                       margin-bottom: 13px;
                       color: hsl(208, 11%, 55%);}
