@@ -72,12 +72,14 @@ p {font-family: "Open Sans";}
 
 .section-a__h {width: 72.22%;
                margin-top: 0;
-               margin-bottom: 19px;}
+               margin-bottom: 19px;
+               font-weight: 700;}
 
 .btn {background-color: hsl(322, 100%, 66%);
       padding: 16.5px 41px;
       box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
       border-radius: 3px;
+      font-weight: 400;
       color: white;
       border: none;}
 
@@ -93,7 +95,9 @@ p {font-family: "Open Sans";}
             text-align: center;
             margin-top: 0;}
 
-.section-b__h {margin-bottom: 31px; margin-top: 0;}
+.section-b__h {margin-bottom: 31px;
+               margin-top: 0;
+               font-weight: 700;}
 
 .section-b__p  {width: 80%;
                color: hsl(208, 11%, 55%);
@@ -102,7 +106,7 @@ p {font-family: "Open Sans";}
 
 .p-users {margin-bottom: 97px;}
 
-.section-b__h-prefinal {margin-top: 0;}
+.section-b__h-prefinal {margin-top: 0; font-weight: 600;}
 
 .section-b__h-final {margin-top: 0;}
 
@@ -119,12 +123,12 @@ p {font-family: "Open Sans";}
 .section-b__h-final  {background-color: hsl(322, 100%, 66%);
                       padding: 16.5px 41px;
                       margin-bottom: 35px;
-                      box-shadow: 0 3px 3px hsl(322, 100%, 66%, 0.4);
+                      box-shadow: 3px 3px 3px hsl(322, 100%, 66%, 0.9);
                       border-radius: 3px;
                       color: white;
                       border: none;
                       font-weight: 400;
-                      font-size: 8px;}
+                      font-size: 7px;}
 
 .section-b__p-pfinal {font-size: 9px;
                       margin: 0;
@@ -156,11 +160,15 @@ footer {color: white;
             width: 100%;
             text-align: center;}
 
+.sub-icons__sub {text-transform: uppercase;
+                 font-weight: 600;}
+
 .sub-icons__p,
 .sub-icons__sub-b,
 .email {width: 85.33%;}
 
-.email {height: 48px; border: none;}
+.email {height: 48px;
+        border: none;}
 
 .sub-icons__sub-b  {background-color: hsl(322, 100%, 66%);
                     padding: 16.5px 41px;
