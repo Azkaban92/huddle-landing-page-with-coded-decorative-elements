@@ -365,7 +365,7 @@ footer {color: white;
 
 .column-left {width: 40%;}
 
-.column-right {width: 50%;}
+.column-right {width: 40%;}
 
 .try-wrapper {display: flex;
               flex-flow: column nowrap;
